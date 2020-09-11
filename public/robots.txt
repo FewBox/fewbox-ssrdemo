@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://fewbox.com/sitemap.xml
