@@ -1,7 +1,6 @@
 import * as React from 'react';
+import * as FewBox from '@fewbox/react-components';
 import Head from 'next/head';
-import Header from '../components/header';
-import Footer from '../components/footer';
 
 export interface IHomeProps {
 }
@@ -17,9 +16,9 @@ class Home extends React.Component<IHomeProps> {
           <meta name="author" content="FewBox" />
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         </Head>
-        <Header />
-        <div>Hello World</div>
-        <Footer />
+        <FewBox.Core.Header />
+        <FewBox.Official.Pricing />
+        <FewBox.Core.Footer />
       </div>
     );
   }
