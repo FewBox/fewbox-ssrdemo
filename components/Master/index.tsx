@@ -13,6 +13,7 @@ export default class Master extends React.Component<IMasterProps, any> {
             <IntlProvider locale={'en'} messages={langs('en-us')}>
                 <Head>
                     <title>FewBox - Best Plugin and Extension Service for Cloud</title>
+                    <link rel="shortcut icon" href="/favicon.ico" />
                     <meta name="description" content="FewBox a smart team!" />
                     <meta name="keywords" content="Plugin, Extension" />
                     <meta name="author" content="FewBox" />

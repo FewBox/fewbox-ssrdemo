@@ -1,5 +1,6 @@
 import * as React from 'react';
-import Head from 'next/head';
+import Master from '../../components/Master';
+import * as FewBox from '@fewbox/react-components';
 
 export interface IAboutProps {
 }
@@ -7,16 +8,11 @@ export interface IAboutProps {
 class About extends React.Component<IAboutProps> {
   public render() {
     return (
-      <div className="about">
-        <Head>
-          <title>FewBox - Best Plugin and Extension Service for Cloud</title>
-          <meta name="description" content="FewBox a smart team!" />
-          <meta name="keywords" content="Plugin, Extension" />
-          <meta name="author" content="FewBox" />
-          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        </Head>
-        <div>About</div>
-      </div>
+      <Master>
+        <FewBox.Common.Row>
+          <div>About</div>
+        </FewBox.Common.Row>
+      </Master>
     );
   }
 }
