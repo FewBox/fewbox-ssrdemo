@@ -14,12 +14,16 @@ module.exports = {
         }
     },
     sassOptions: {
-        includePaths: [path.join(__dirname, 'styles')],
+        includePaths: [path.join(__dirname, 'style')],
     },
     webpack: (config, { isServer }) => {
-        if (isServer) {
-            require('./scripts/generate-sitemap');
-        }
+        config.module.rules.push({
+            test: /\.svg$/,
+            issuer: {
+                test: /\.(js|ts)x?$/,
+            },
+            use: ['@svgr/webpack'],
+        });
         return config;
     }
 }

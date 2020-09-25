@@ -19,9 +19,8 @@
     "jsx": "preserve"
   },
   "include": [
-    "next-env.d.ts",
     "**/*.ts",
-    "**/*.tsx", "next.config.js", "pages/_app.tsx", "pages/pages/404.ts.bak", "pages/_document.tsx.bak"
+    "**/*.tsx",
   ],
   "exclude": [
     "node_modules"
