@@ -15,23 +15,36 @@ class Feature extends React.Component<IFeatureProps> {
       <Master>
         <FewBox.Common.Row>
         <FewBox.Official.Product
-            features={[
-              {
-                name: <FormattedMessage id="Label.Feature1Name" />,
-                description: <FormattedMessage id="Label.Feature1Description" />,
-                image: <Feature1Svg />
-              },
-              {
-                name: <FormattedMessage id="Label.Feature2Name" />,
-                description: <FormattedMessage id="Label.Feature2Description" />,
-                image: <Feature2Svg />
-              },
-              {
-                name: <FormattedMessage id="Label.Feature3Name" />,
-                description: <FormattedMessage id="Label.Feature3Description" />,
-                image: <Feature3Svg />
-              }
-            ]} />
+          heroTitle={<FormattedMessage id="Label.ProductTitle" />}
+          heroBody={<FormattedMessage id="Label.ProductBody" />}
+          features={[
+            {
+              name: <FormattedMessage id="Label.Feature1Name" />,
+              descriptions: [
+                <FormattedMessage id="Label.Feature1Description1" />,
+                <FormattedMessage id="Label.Feature1Description2" />,
+                <FormattedMessage id="Label.Feature1Description3" />],
+              image: <Feature1Svg />
+            },
+            {
+              name: <FormattedMessage id="Label.Feature2Name" />,
+              descriptions: [
+                <FormattedMessage id="Label.Feature2Description1" />,
+                <FormattedMessage id="Label.Feature2Description2" />,
+                <FormattedMessage id="Label.Feature2Description3" />
+              ],
+              image: <Feature2Svg />
+            },
+            {
+              name: <FormattedMessage id="Label.Feature3Name" />,
+              descriptions: [
+                <FormattedMessage id="Label.Feature3Description1" />,
+                <FormattedMessage id="Label.Feature3Description2" />,
+                <FormattedMessage id="Label.Feature3Description3" />
+              ],
+              image: <Feature3Svg />
+            }
+          ]} />
         </FewBox.Common.Row>
       </Master>
     );
