@@ -10,7 +10,10 @@ module.exports = {
         return {
             '/': { page: '/' },
             '/about': { page: '/about' },
-            '/pricing': { page: '/pricing' }
+            '/pricing': { page: '/pricing' },
+            '/feature': { page: '/feature' },
+            '/404': { page: '/404' },
+            '/500': { page: '/500' }
         }
     },
     sassOptions: {
