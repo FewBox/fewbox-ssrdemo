@@ -1,5 +1,5 @@
 import * as React from 'react';
-import * as FewBox from '@fewbox/react-components';
+import FewBox from './merge';
 import { FormattedMessage } from 'react-intl';
 import Master from '../components/Master';
 import LenovoSvg from '../svgs/lenovo.svg';
@@ -57,7 +57,7 @@ class Home extends React.Component<IHomeProps> {
               image: <Feature3Svg />
             }
           ]} />
-        <FewBox.Official.Pricing heroTitle={<FormattedMessage id="Label.PricingTitle" />} heroBody={<FormattedMessage id="Label.PricingBody" />} registerUrl="#" currenty="$" paypalEnvironment={FewBox.Official.PaypalEnvironmentType.Sandbox} paypalBusinessCode="GM5YEYHLR3XQL"
+        <FewBox.Official.Pricing heroTitle={<FormattedMessage id="Label.PricingTitle" />} heroBody={<FormattedMessage id="Label.PricingBody" />} registryLink={{ path: 'registry', caption: <FormattedMessage id="Link.Registry" /> }} currenty="$" paypalEnvironment={FewBox.Official.PaypalEnvironmentType.Sandbox} paypalBusinessCode="GM5YEYHLR3XQL"
           prices={[
             { isRecommended: false, licenseType: FewBox.Official.LicenseType.Free, licenseCaption: <FormattedMessage id="Label.FreeLicense" />, discountedPrice: "0", description: <p><b>Free</b> download the kubernetes version and use them <b>Now</b></p> },
             {

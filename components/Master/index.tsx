@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import * as FewBox from '@fewbox/react-components';
+import FewBox from '../../pages/merge';
 import * as React from 'react';
 import { FormattedMessage, IntlProvider } from 'react-intl';
 import langs from '../../langs';
@@ -23,14 +23,14 @@ export default class Master extends React.Component<IMasterProps, any> {
                 </Head>
                 <FewBox.Analyze.GA trackingId="UA-132759085-1" isDebug={true} app="fewbox" path={(typeof(window)=='object')?window.location.pathname:'unknow'} />
                 <FewBox.VI.Style />
-                <FewBox.Common.Container>
+                <FewBox.Layout.Container>
                     <FewBox.Official.Header logo={<LogoSvg />} slogan="Plugin Cloud">
                         <FewBox.Official.Nav donateLink={<FormattedMessage id="Link.Donate" />} extensionNavLinks={[
                             { path: 'feature', caption: <FormattedMessage id="Link.Feature" /> },
                             { path: 'pricing', caption: <FormattedMessage id="Link.Pricing" /> }]} />
                     </FewBox.Official.Header>
                     {this.props.children}
-                </FewBox.Common.Container>
+                </FewBox.Layout.Container>
                 <FewBox.Official.Footer logo={<LogoGraySvg />} copyrightCaption={<FormattedMessage id="Label.Copyright" />} />
             </IntlProvider>
         );

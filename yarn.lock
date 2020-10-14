@@ -883,7 +883,7 @@
     "@babel/helper-plugin-utils" "^7.10.4"
     "@babel/plugin-transform-typescript" "^7.10.4"
 
-"@babel/runtime@7.11.2", "@babel/runtime@^7.1.2", "@babel/runtime@^7.5.5", "@babel/runtime@^7.8.4":
+"@babel/runtime@7.11.2", "@babel/runtime@^7.8.4":
   version "7.11.2"
   resolved "https://registry.npmjs.org/@babel/runtime/-/runtime-7.11.2.tgz#f549c13c754cc40b87644b9fa9f09a6a95fe0736"
   dependencies:
@@ -927,26 +927,17 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@fewbox/react-components@^0.0.7":
-  version "0.0.7"
-  resolved "https://registry.npmjs.org/@fewbox/react-components/-/react-components-0.0.7.tgz#561148adedb615be5f7f4eacdc84f015ee1a79d1"
-  dependencies:
-    lodash "^4.17.20"
-    lodash.template "^4.5.0"
-    next "^9.5.3"
-    react "^16.8.6"
-    react-dom "^16.8.6"
-    react-ga "^3.1.2"
-    react-intl "^5.8.2"
-    react-router-dom "^5.0.1"
+"@fewbox/react-components@^0.0.10":
+  version "0.0.10"
+  resolved "https://registry.npmjs.org/@fewbox/react-components/-/react-components-0.0.10.tgz#9bb049af1b96daac1a6b5cd680828c56a6bc1bd7"
+
+"@fewbox/web-components@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.npmjs.org/@fewbox/web-components/-/web-components-0.0.1.tgz#0e493c8bab4e10250d0a6ab597068bae37f25baa"
 
 "@formatjs/ecma402-abstract@^1.2.1":
   version "1.2.1"
   resolved "https://registry.npm.taobao.org/@formatjs/ecma402-abstract/download/@formatjs/ecma402-abstract-1.2.1.tgz#ad966998d7f0e96fca4bdc5de0ca28d02f371279"
-
-"@formatjs/ecma402-abstract@^1.2.2":
-  version "1.2.2"
-  resolved "https://registry.npmjs.org/@formatjs/ecma402-abstract/-/ecma402-abstract-1.2.2.tgz#4810bdbd696d3805c535fd0620b7c8f45ab3164f"
 
 "@formatjs/intl-displaynames@^3.3.7":
   version "3.3.7"
@@ -954,35 +945,17 @@
   dependencies:
     "@formatjs/ecma402-abstract" "^1.2.1"
 
-"@formatjs/intl-displaynames@^3.3.8":
-  version "3.3.8"
-  resolved "https://registry.npmjs.org/@formatjs/intl-displaynames/-/intl-displaynames-3.3.8.tgz#37a3698e135e00908c4314c1085a90d4b9381f61"
-  dependencies:
-    "@formatjs/ecma402-abstract" "^1.2.2"
-
 "@formatjs/intl-listformat@^4.2.6":
   version "4.2.6"
   resolved "https://registry.npm.taobao.org/@formatjs/intl-listformat/download/@formatjs/intl-listformat-4.2.6.tgz?cache=0&sync_timestamp=1599663912817&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40formatjs%2Fintl-listformat%2Fdownload%2F%40formatjs%2Fintl-listformat-4.2.6.tgz#31638a6cb3e33047d81161b139c1d68fb377d3c2"
   dependencies:
     "@formatjs/ecma402-abstract" "^1.2.1"
 
-"@formatjs/intl-listformat@^4.2.7":
-  version "4.2.7"
-  resolved "https://registry.npmjs.org/@formatjs/intl-listformat/-/intl-listformat-4.2.7.tgz#bcccfee92c69e661d4da51567540aa39fef9ceae"
-  dependencies:
-    "@formatjs/ecma402-abstract" "^1.2.2"
-
 "@formatjs/intl-relativetimeformat@^7.2.6":
   version "7.2.6"
   resolved "https://registry.npm.taobao.org/@formatjs/intl-relativetimeformat/download/@formatjs/intl-relativetimeformat-7.2.6.tgz?cache=0&sync_timestamp=1599662164588&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40formatjs%2Fintl-relativetimeformat%2Fdownload%2F%40formatjs%2Fintl-relativetimeformat-7.2.6.tgz#7452e0feaa433f341b306e308166058e8126e934"
   dependencies:
     "@formatjs/ecma402-abstract" "^1.2.1"
-
-"@formatjs/intl-relativetimeformat@^7.2.7":
-  version "7.2.7"
-  resolved "https://registry.npmjs.org/@formatjs/intl-relativetimeformat/-/intl-relativetimeformat-7.2.7.tgz#dce72ebafb1ca0bf14673fab3b1aad145e1abac6"
-  dependencies:
-    "@formatjs/ecma402-abstract" "^1.2.2"
 
 "@formatjs/intl@^1.3.1":
   version "1.3.1"
@@ -995,18 +968,6 @@
     fast-memoize "^2.5.2"
     intl-messageformat "^9.3.7"
     intl-messageformat-parser "^6.0.6"
-
-"@formatjs/intl@^1.3.2":
-  version "1.3.2"
-  resolved "https://registry.npmjs.org/@formatjs/intl/-/intl-1.3.2.tgz#95240177ef9a66614ae28193d346c1d65036cefd"
-  dependencies:
-    "@formatjs/ecma402-abstract" "^1.2.2"
-    "@formatjs/intl-displaynames" "^3.3.8"
-    "@formatjs/intl-listformat" "^4.2.7"
-    "@formatjs/intl-relativetimeformat" "^7.2.7"
-    fast-memoize "^2.5.2"
-    intl-messageformat "^9.3.8"
-    intl-messageformat-parser "^6.0.7"
 
 "@next/react-dev-overlay@9.5.3":
   version "9.5.3"
@@ -1953,6 +1914,10 @@ copy-descriptor@^0.1.0:
   version "0.1.1"
   resolved "https://registry.npmjs.org/copy-descriptor/-/copy-descriptor-0.1.1.tgz#676f6eb3c39997c2ee1ac3a924fd6124748f578d"
 
+core-decorators@^0.20.0:
+  version "0.20.0"
+  resolved "https://registry.npmjs.org/core-decorators/-/core-decorators-0.20.0.tgz#605896624053af8c28efbe735c25a301a61c65c5"
+
 core-js-compat@^3.6.2:
   version "3.6.5"
   resolved "https://registry.npmjs.org/core-js-compat/-/core-js-compat-3.6.5.tgz#2a51d9a4e25dfd6e690251aa81f99e3c05481f1c"
@@ -2740,17 +2705,6 @@ he@1.1.1:
   version "1.1.1"
   resolved "https://registry.npmjs.org/he/-/he-1.1.1.tgz#93410fd21b009735151f8868c2f271f3427e23fd"
 
-history@^4.9.0:
-  version "4.10.1"
-  resolved "https://registry.npm.taobao.org/history/download/history-4.10.1.tgz#33371a65e3a83b267434e2b3f3b1b4c58aad4cf3"
-  dependencies:
-    "@babel/runtime" "^7.1.2"
-    loose-envify "^1.2.0"
-    resolve-pathname "^3.0.0"
-    tiny-invariant "^1.0.2"
-    tiny-warning "^1.0.0"
-    value-equal "^1.0.1"
-
 hmac-drbg@^1.0.0:
   version "1.0.1"
   resolved "https://registry.npmjs.org/hmac-drbg/-/hmac-drbg-1.0.1.tgz#d2745701025a6c775a6c545793ed502fc0c649a1"
@@ -2759,7 +2713,7 @@ hmac-drbg@^1.0.0:
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.1"
 
-hoist-non-react-statics@^3.1.0, hoist-non-react-statics@^3.3.0, hoist-non-react-statics@^3.3.2:
+hoist-non-react-statics@^3.3.0, hoist-non-react-statics@^3.3.2:
   version "3.3.2"
   resolved "https://registry.npm.taobao.org/hoist-non-react-statics/download/hoist-non-react-statics-3.3.2.tgz?cache=0&sync_timestamp=1594339290904&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fhoist-non-react-statics%2Fdownload%2Fhoist-non-react-statics-3.3.2.tgz#ece0acaf71d62c2969c2ec59feff42a4b1a85b45"
   dependencies:
@@ -2851,25 +2805,12 @@ intl-messageformat-parser@^6.0.6:
   dependencies:
     "@formatjs/ecma402-abstract" "^1.2.1"
 
-intl-messageformat-parser@^6.0.7:
-  version "6.0.7"
-  resolved "https://registry.npmjs.org/intl-messageformat-parser/-/intl-messageformat-parser-6.0.7.tgz#de57a03466e1441b7cbfd99a02ace108745ef133"
-  dependencies:
-    "@formatjs/ecma402-abstract" "^1.2.2"
-
 intl-messageformat@^9.3.7:
   version "9.3.7"
   resolved "https://registry.npm.taobao.org/intl-messageformat/download/intl-messageformat-9.3.7.tgz?cache=0&sync_timestamp=1599662158618&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fintl-messageformat%2Fdownload%2Fintl-messageformat-9.3.7.tgz#d40e61dc20ded8952fef00d97237880ff380550a"
   dependencies:
     fast-memoize "^2.5.2"
     intl-messageformat-parser "^6.0.6"
-
-intl-messageformat@^9.3.8:
-  version "9.3.8"
-  resolved "https://registry.npmjs.org/intl-messageformat/-/intl-messageformat-9.3.8.tgz#561f31800cc3ced5dada6c991a0dd0233931850f"
-  dependencies:
-    fast-memoize "^2.5.2"
-    intl-messageformat-parser "^6.0.7"
 
 invariant@^2.2.2, invariant@^2.2.4:
   version "2.2.4"
@@ -3006,10 +2947,6 @@ is-windows@^1.0.2:
 is-wsl@^1.1.0:
   version "1.1.0"
   resolved "https://registry.npmjs.org/is-wsl/-/is-wsl-1.1.0.tgz#1f16e4aa22b04d1336b66188a66af3c600c3a66d"
-
-isarray@0.0.1:
-  version "0.0.1"
-  resolved "https://registry.npm.taobao.org/isarray/download/isarray-0.0.1.tgz#8a18acfca9a8f4177e09abfc6038939b05d1eedf"
 
 isarray@1.0.0, isarray@^1.0.0, isarray@~1.0.0:
   version "1.0.0"
@@ -3164,32 +3101,15 @@ locate-path@^5.0.0:
   dependencies:
     p-locate "^4.1.0"
 
-lodash._reinterpolate@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.npm.taobao.org/lodash._reinterpolate/download/lodash._reinterpolate-3.0.0.tgz#0ccf2d89166af03b3663c796538b75ac6e114d9d"
-
 lodash.sortby@^4.7.0:
   version "4.7.0"
   resolved "https://registry.npmjs.org/lodash.sortby/-/lodash.sortby-4.7.0.tgz#edd14c824e2cc9c1e0b0a1b42bb5210516a42438"
 
-lodash.template@^4.5.0:
-  version "4.5.0"
-  resolved "https://registry.npm.taobao.org/lodash.template/download/lodash.template-4.5.0.tgz#f976195cf3f347d0d5f52483569fe8031ccce8ab"
-  dependencies:
-    lodash._reinterpolate "^3.0.0"
-    lodash.templatesettings "^4.0.0"
-
-lodash.templatesettings@^4.0.0:
-  version "4.2.0"
-  resolved "https://registry.npm.taobao.org/lodash.templatesettings/download/lodash.templatesettings-4.2.0.tgz?cache=0&sync_timestamp=1562735567911&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Flodash.templatesettings%2Fdownload%2Flodash.templatesettings-4.2.0.tgz#e481310f049d3cf6d47e912ad09313b154f0fb33"
-  dependencies:
-    lodash._reinterpolate "^3.0.0"
-
-lodash@^4.17.11, lodash@^4.17.13, lodash@^4.17.19, lodash@^4.17.20:
+lodash@^4.17.11, lodash@^4.17.13, lodash@^4.17.19:
   version "4.17.20"
   resolved "https://registry.npmjs.org/lodash/-/lodash-4.17.20.tgz#b44a9b6297bcb698f1c51a3545a2b3b368d59c52"
 
-loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.2.0, loose-envify@^1.3.1, loose-envify@^1.4.0:
+loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.4.0:
   version "1.4.0"
   resolved "https://registry.npm.taobao.org/loose-envify/download/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
   dependencies:
@@ -3307,13 +3227,6 @@ miller-rabin@^4.0.0:
   dependencies:
     bn.js "^4.0.0"
     brorand "^1.0.1"
-
-mini-create-react-context@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.npm.taobao.org/mini-create-react-context/download/mini-create-react-context-0.4.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fmini-create-react-context%2Fdownload%2Fmini-create-react-context-0.4.0.tgz#df60501c83151db69e28eac0ef08b4002efab040"
-  dependencies:
-    "@babel/runtime" "^7.5.5"
-    tiny-warning "^1.0.3"
 
 minimalistic-assert@^1.0.0, minimalistic-assert@^1.0.1:
   version "1.0.1"
@@ -3749,12 +3662,6 @@ path-parse@^1.0.6:
   version "1.0.6"
   resolved "https://registry.npmjs.org/path-parse/-/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
 
-path-to-regexp@^1.7.0:
-  version "1.8.0"
-  resolved "https://registry.npm.taobao.org/path-to-regexp/download/path-to-regexp-1.8.0.tgz#887b3ba9d84393e87a0a0b9f4cb756198b53548a"
-  dependencies:
-    isarray "0.0.1"
-
 path-type@^4.0.0:
   version "4.0.0"
   resolved "https://registry.npm.taobao.org/path-type/download/path-type-4.0.0.tgz#84ed01c0a7ba380afe09d90a8c180dcd9d03043b"
@@ -3943,6 +3850,14 @@ q@^1.1.2:
   version "1.5.1"
   resolved "https://registry.npmjs.org/q/-/q-1.5.1.tgz#7e32f75b41381291d04611f1bf14109ac00651d7"
 
+query-string@^6.13.5:
+  version "6.13.5"
+  resolved "https://registry.npmjs.org/query-string/-/query-string-6.13.5.tgz#99e95e2fb7021db90a6f373f990c0c814b3812d8"
+  dependencies:
+    decode-uri-component "^0.2.0"
+    split-on-first "^1.0.0"
+    strict-uri-encode "^2.0.0"
+
 querystring-es3@^0.2.0:
   version "0.2.1"
   resolved "https://registry.npmjs.org/querystring-es3/-/querystring-es3-0.2.1.tgz#9ec61f79049875707d69414596fd907a4d711e73"
@@ -3964,7 +3879,7 @@ randomfill@^1.0.3:
     randombytes "^2.0.5"
     safe-buffer "^5.1.0"
 
-react-dom@^16.13.1, react-dom@^16.8.6:
+react-dom@^16.13.1:
   version "16.13.1"
   resolved "https://registry.npm.taobao.org/react-dom/download/react-dom-16.13.1.tgz#c1bd37331a0486c078ee54c4740720993b2e0e7f"
   dependencies:
@@ -3993,23 +3908,7 @@ react-intl@^5.8.1:
     intl-messageformat-parser "^6.0.6"
     shallow-equal "^1.2.1"
 
-react-intl@^5.8.2:
-  version "5.8.2"
-  resolved "https://registry.npmjs.org/react-intl/-/react-intl-5.8.2.tgz#6be0f31a6438bf12989f7c8f7f4b5610f36e862f"
-  dependencies:
-    "@formatjs/ecma402-abstract" "^1.2.2"
-    "@formatjs/intl" "^1.3.2"
-    "@formatjs/intl-displaynames" "^3.3.8"
-    "@formatjs/intl-listformat" "^4.2.7"
-    "@formatjs/intl-relativetimeformat" "^7.2.7"
-    "@types/hoist-non-react-statics" "^3.3.1"
-    fast-memoize "^2.5.2"
-    hoist-non-react-statics "^3.3.2"
-    intl-messageformat "^9.3.8"
-    intl-messageformat-parser "^6.0.7"
-    shallow-equal "^1.2.1"
-
-react-is@16.13.1, react-is@^16.6.0, react-is@^16.7.0, react-is@^16.8.1:
+react-is@16.13.1, react-is@^16.7.0, react-is@^16.8.1:
   version "16.13.1"
   resolved "https://registry.npm.taobao.org/react-is/download/react-is-16.13.1.tgz?cache=0&sync_timestamp=1598612918330&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Freact-is%2Fdownload%2Freact-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
 
@@ -4017,34 +3916,7 @@ react-refresh@0.8.3:
   version "0.8.3"
   resolved "https://registry.npmjs.org/react-refresh/-/react-refresh-0.8.3.tgz#721d4657672d400c5e3c75d063c4a85fb2d5d68f"
 
-react-router-dom@^5.0.1:
-  version "5.2.0"
-  resolved "https://registry.npm.taobao.org/react-router-dom/download/react-router-dom-5.2.0.tgz#9e65a4d0c45e13289e66c7b17c7e175d0ea15662"
-  dependencies:
-    "@babel/runtime" "^7.1.2"
-    history "^4.9.0"
-    loose-envify "^1.3.1"
-    prop-types "^15.6.2"
-    react-router "5.2.0"
-    tiny-invariant "^1.0.2"
-    tiny-warning "^1.0.0"
-
-react-router@5.2.0:
-  version "5.2.0"
-  resolved "https://registry.npm.taobao.org/react-router/download/react-router-5.2.0.tgz#424e75641ca8747fbf76e5ecca69781aa37ea293"
-  dependencies:
-    "@babel/runtime" "^7.1.2"
-    history "^4.9.0"
-    hoist-non-react-statics "^3.1.0"
-    loose-envify "^1.3.1"
-    mini-create-react-context "^0.4.0"
-    path-to-regexp "^1.7.0"
-    prop-types "^15.6.2"
-    react-is "^16.6.0"
-    tiny-invariant "^1.0.2"
-    tiny-warning "^1.0.0"
-
-react@^16.13.1, react@^16.8.6:
+react@^16.13.1:
   version "16.13.1"
   resolved "https://registry.npm.taobao.org/react/download/react-16.13.1.tgz?cache=0&sync_timestamp=1598614594295&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Freact%2Fdownload%2Freact-16.13.1.tgz#2e818822f1a9743122c063d6410d85c1e3afe48e"
   dependencies:
@@ -4153,10 +4025,6 @@ repeat-string@^1.6.1:
 resolve-from@^4.0.0:
   version "4.0.0"
   resolved "https://registry.npmjs.org/resolve-from/-/resolve-from-4.0.0.tgz#4abcd852ad32dd7baabfe9b40e00a36db5f392e6"
-
-resolve-pathname@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.npm.taobao.org/resolve-pathname/download/resolve-pathname-3.0.0.tgz#99d02224d3cf263689becbb393bc560313025dcd"
 
 resolve-url-loader@3.1.1:
   version "3.1.1"
@@ -4422,6 +4290,10 @@ source-map@^0.5.0, source-map@^0.5.6:
   version "0.5.7"
   resolved "https://registry.npmjs.org/source-map/-/source-map-0.5.7.tgz#8a039d2d1021d22d1ea14c80d8ea468ba2ef3fcc"
 
+split-on-first@^1.0.0:
+  version "1.1.0"
+  resolved "https://registry.npmjs.org/split-on-first/-/split-on-first-1.1.0.tgz#f610afeee3b12bce1d0c30425e76398b78249a5f"
+
 split-string@^3.0.1, split-string@^3.0.2:
   version "3.1.0"
   resolved "https://registry.npmjs.org/split-string/-/split-string-3.1.0.tgz#7cb09dda3a86585705c64b39a6466038682e8fe2"
@@ -4496,6 +4368,10 @@ stream-http@^2.7.2:
 stream-shift@^1.0.0:
   version "1.0.1"
   resolved "https://registry.npmjs.org/stream-shift/-/stream-shift-1.0.1.tgz#d7088281559ab2778424279b0877da3c392d5a3d"
+
+strict-uri-encode@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.npmjs.org/strict-uri-encode/-/strict-uri-encode-2.0.0.tgz#b9c7330c7042862f6b142dc274bbcc5866ce3546"
 
 string-hash@1.1.3:
   version "1.1.3"
@@ -4639,14 +4515,6 @@ timers-browserify@^2.0.4:
   resolved "https://registry.npmjs.org/timers-browserify/-/timers-browserify-2.0.11.tgz#800b1f3eee272e5bc53ee465a04d0e804c31211f"
   dependencies:
     setimmediate "^1.0.4"
-
-tiny-invariant@^1.0.2:
-  version "1.1.0"
-  resolved "https://registry.npm.taobao.org/tiny-invariant/download/tiny-invariant-1.1.0.tgz#634c5f8efdc27714b7f386c35e6760991d230875"
-
-tiny-warning@^1.0.0, tiny-warning@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.npm.taobao.org/tiny-warning/download/tiny-warning-1.0.3.tgz#94a30db453df4c643d0fd566060d60a875d84754"
 
 to-arraybuffer@^1.0.0:
   version "1.0.1"
@@ -4836,10 +4704,6 @@ util@^0.11.0:
   resolved "https://registry.npmjs.org/util/-/util-0.11.1.tgz#3236733720ec64bb27f6e26f421aaa2e1b588d61"
   dependencies:
     inherits "2.0.3"
-
-value-equal@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.npm.taobao.org/value-equal/download/value-equal-1.0.1.tgz#1e0b794c734c5c0cade179c437d356d931a34d6c"
 
 vm-browserify@1.1.2, vm-browserify@^1.0.1:
   version "1.1.2"
