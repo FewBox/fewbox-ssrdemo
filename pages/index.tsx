@@ -1,5 +1,5 @@
 import * as React from 'react';
-import FewBox from './merge';
+import FewBox from '../theme/merge';
 import { FormattedMessage } from 'react-intl';
 import Master from '../components/Master';
 import LenovoSvg from '../svgs/lenovo.svg';

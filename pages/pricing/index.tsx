@@ -1,5 +1,5 @@
 import * as React from 'react';
-import FewBox from '../merge';
+import FewBox from '../../theme/merge';
 import { GetStaticProps } from 'next';
 import { FormattedMessage } from 'react-intl';
 import Master from '../../components/Master';
@@ -24,7 +24,7 @@ class Pricing extends React.Component<IPricingProps> {
     public render() {
         return (
             <Master>
-                <FewBox.Official.Pricing heroTitle={<FormattedMessage id="Label.PricingTitle" />} heroBody={<FormattedMessage id="Label.PricingBody" />} registerUrl="#" currenty="$" paypalEnvironment={FewBox.Official.PaypalEnvironmentType.Sandbox} paypalBusinessCode="GM5YEYHLR3XQL"
+                <FewBox.Official.Pricing heroTitle={<FormattedMessage id="Label.PricingTitle" />} heroBody={<FormattedMessage id="Label.PricingBody" />} registryLink={{ path: 'registry', caption: <FormattedMessage id="Link.Registry" /> }} currenty="$" paypalEnvironment={FewBox.Official.PaypalEnvironmentType.Sandbox} paypalBusinessCode="GM5YEYHLR3XQL"
                     prices={[
                         { isRecommended: false, licenseType: FewBox.Official.LicenseType.Free, licenseCaption: <FormattedMessage id="Label.FreeLicense" />, discountedPrice: "0", description: <p><b>Free</b> download the kubernetes version and use them <b>Now</b></p> },
                         {

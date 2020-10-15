@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import FewBox from '../../pages/merge';
+import FewBox from '../../theme/merge';
 import * as React from 'react';
 import { FormattedMessage, IntlProvider } from 'react-intl';
 import langs from '../../langs';

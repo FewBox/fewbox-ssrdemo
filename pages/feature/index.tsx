@@ -1,6 +1,6 @@
 import * as React from 'react';
 import Master from '../../components/Master';
-import * as FewBox from '@fewbox/react-components';
+import FewBox from '../../theme/merge';
 import { FormattedMessage } from 'react-intl';
 import Feature1Svg from '../../svgs/feature1.svg';
 import Feature2Svg from '../../svgs/feature2.svg';
@@ -13,7 +13,7 @@ class Feature extends React.Component<IFeatureProps> {
   public render() {
     return (
       <Master>
-        <FewBox.Common.Row>
+        <FewBox.Layout.Row>
         <FewBox.Official.Product
           heroTitle={<FormattedMessage id="Label.ProductTitle" />}
           heroBody={<FormattedMessage id="Label.ProductBody" />}
@@ -45,7 +45,7 @@ class Feature extends React.Component<IFeatureProps> {
               image: <Feature3Svg />
             }
           ]} />
-        </FewBox.Common.Row>
+        </FewBox.Layout.Row>
       </Master>
     );
   }

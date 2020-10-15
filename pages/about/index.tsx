@@ -1,6 +1,6 @@
 import * as React from 'react';
 import Master from '../../components/Master';
-import * as FewBox from '@fewbox/react-components';
+import FewBox from '../../theme/merge';
 
 export interface IAboutProps {
 }
@@ -9,9 +9,9 @@ class About extends React.Component<IAboutProps> {
   public render() {
     return (
       <Master>
-        <FewBox.Common.Row>
+        <FewBox.Layout.Row>
           <div>About</div>
-        </FewBox.Common.Row>
+        </FewBox.Layout.Row>
       </Master>
     );
   }
