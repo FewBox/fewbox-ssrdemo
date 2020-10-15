@@ -12,8 +12,8 @@
     "export": "next export"
   },
   "dependencies": {
-    "@fewbox/react-components": "^0.0.10",
-    "@fewbox/web-components": "^0.0.1",
+    "@fewbox/react-components": "^0.0.11",
+    "@fewbox/web-components": "^0.0.3",
     "core-decorators": "^0.20.0",
     "next": "^9.5.3",
     "query-string": "^6.13.5",
