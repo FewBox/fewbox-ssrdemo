@@ -1,6 +1,6 @@
 import * as React from 'react';
 import Master from '../../components/Master';
-import FewBox from '../../theme/merge';
+import FewBox from '../../fewbox/mingle';
 import { FormattedMessage } from 'react-intl';
 import Feature1Svg from '../../svgs/feature1.svg';
 import Feature2Svg from '../../svgs/feature2.svg';

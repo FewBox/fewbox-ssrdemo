@@ -1,6 +1,6 @@
 import * as React from 'react';
 import Master from '../../components/Master';
-import FewBox from '../../theme/merge';
+import FewBox from '../../fewbox/mingle';
 
 export interface IAboutProps {
 }

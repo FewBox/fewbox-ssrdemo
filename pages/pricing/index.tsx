@@ -1,5 +1,5 @@
 import * as React from 'react';
-import FewBox from '../../theme/merge';
+import FewBox from '../../fewbox/mingle';
 import { GetStaticProps } from 'next';
 import { FormattedMessage } from 'react-intl';
 import Master from '../../components/Master';
